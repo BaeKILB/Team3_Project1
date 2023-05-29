@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Pretendard, sans-serif;
+}
+
+.inr {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#branch {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1400px) {
+    .inr {
+        width: 97%;
+    }
+}
+
+.branch_location_map_title {
+	text-align: center;
+	font-weight: bold;
+	margin: 50px 0;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+.branch_location_instan {
+	width: 45%;
+	display: inline-block;
+	margin: 2em 3%;
+	
+}
+
+.branch_location_title {
+	padding: 10px 0 10px 30px;
+	margin-top: 2em;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #ff6600;
+}
+
+.branch_location_info>li {
+	padding: 10px 0 10px 0px;
+	margin-left: 20px;
+	color: #fff;
+	list-style: none;
+	
+}
+
+.branch_location_info {
+	background-color: #ff6600;
+	margin-left: 1em;
+	border-radius: 20px;
+}
+
+.branch_bottom {
+	display: flex;
+	justify-content: center;
+}
+
+#map {
+/* 	width:800px; */
+	border-radius: 5px;
+	width:100%;
+	height:600px;
+	margin: 0 auto;	
+}
+

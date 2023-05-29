@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Pretendard, sans-serif;
+}
+
+.inr {
+    max-width: 1400px;
+	
+}
+
+
+.w3-container-main {
+	margin:150px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+/* 	border: 1px solid; */
+}
+
+.id_find_title>div {
+	text-align:center;
+/* 	border: 1px solid blue; */
+	font-size: 25px;
+/* 	margin-bottom: 10px; */
+	margin-top: 30px;
+}
+
+.pw_find_title>div {
+	text-align:center;
+/* 	border: 1px solid blue; */
+	font-size: 25px;
+/* 	margin-bottom: 10px; */
+	margin-top: 30px;
+}
+
+.ul1>ul{
+	text-align:center;
+	margin-bottom: 70px;
+}
+
+.ul1>li{
+	line-height:12px;
+}
+
+.isbox{
+	display: flex;
+	justify-content: center;
+}
+
+.btn_write{
+	
+	display:table;
+	clear:both;
+
+	width: 30%;
+	margin: 0 auto;
+    height: 45px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+/*     line-height: 70px; */
+    background: #ff6600;
+    border-radius: 5px;
+}
+
+.f20{
+	font-weight: bold;
+	color: red;
+}
+.f18{
+	font-weight: bold;
+	color: skyblue;
+}
+
+.ul2{
+	width: 30%;
+	margin: 0 auto;
+	height: 20px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* 여기부터는 w3s에서 훔쳐온거!
+	상단바 관련된거!
+	 */
+
+.w3-row{
+	content:"";display:table;clear:both;
+/* 	border: 1px solid red; */
+	width: 100%;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+.w3-third {
+	float:left;width:100%;
+	width:50%;
+	padding:0 8px;
+}
+
+.w3-bottombar{
+	border-bottom:6px solid #ff6600!important;
+}
+
+.w3-hover-light-grey:hover{
+	color:#000!important;background-color:#f1f1f1!important;
+}
+.w3-padding{
+	padding:8px 16px!important;
+}
+
+.w3-container:before, w3-container:after, w3-container-main{
+	content:"";display:table;clear:both;
+	
+	
+}
+
+.w3-container-none{
+	display:none;
+}
